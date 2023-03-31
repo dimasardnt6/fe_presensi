@@ -13,6 +13,8 @@ function isiRow(value) {
             .replace("#STATUS#", value.checkin)
             .replace("#HARIKERJA#", value.biodata.hari_kerja)
             .replace("#JAMKERJA#", value.biodata.jam_kerja)
+            .replace("#JAMMASUK#", value.biodata.jam_masuk)
+            .replace("#JAMKELUAR#", value.biodata.jam_keluar)
             .replace("#WARNA#", getRandomColor())
             .replace(/#WARNALOGO#/g, getRandomColorName());
     addInner("iniTabel", content);
