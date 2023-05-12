@@ -3,15 +3,6 @@ import { getRandomColor, getRandomColorName } from "https://bukulapak.github.io/
 import { isiTabel } from "../temp/tabel.js";
 export function isiTablePresensi(results) {
     results.forEach(isiRow);
-
-// Mengurutkan data dari yang terbaru
-data.sort((a, b) => new Date(b.tanggal) - new Date(a.tanggal));
-
-// Memanggil fungsi isiRow untuk setiap data yang sudah diurutkan
-for (let i = 0; i < data.length; i++) {
-    isiRow(data[i]);
-}
-
 }
 function isiRow(value) {
     let content =
