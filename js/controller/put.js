@@ -23,7 +23,7 @@ function pushData(){
         }
     }
 
-    postData(urlPUT, data, AmbilResponse);
+    putData(urlPUT, data, AmbilResponse);
   
 }
 
