@@ -1,5 +1,6 @@
-function deleteData() {
-    var presensiId = document.querySelector('a[data-presensi-id]').getAttribute('data-presensi-id');
+function deleteData(IDHAPUS) {
+    var presensiId = IDHAPUS;
+    console.log(IDHAPUS)
     var target_url = "https://dimasardnt6-ulbi.herokuapp.com/delete/" + presensiId;
 
     var requestOptions = {
