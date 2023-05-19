@@ -30,7 +30,7 @@ export let isiTabel =
     <a type="button" href="edit.html?presensiId=#IDEDIT#" data-presensi-id="#IDHAPUS#"> Edit
     </a>
     |
-    <button type="button" id="del_button" onclick="deleteData("#IDEDIT#")"> Delete
+    <button type="button" id="del_button" onclick="deleteData('#IDEDIT#')"> Delete
     </button>
     </th>
     <th class="whitespace-nowrap pr-4 bg-white text-sm font-medium text-coolGray-800">
